@@ -7,7 +7,7 @@ package problem3
 
 
 func FindLargestPrimeFactor () (int) {
-	var num_to_find_largest_prime = 600851475143
+  var num_to_find_largest_prime = 600851475143
   var largest_prime_factor int
   var num_to_factorize = num_to_find_largest_prime
 	for i := 1; i < num_to_find_largest_prime; i++ {
