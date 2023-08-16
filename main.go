@@ -5,6 +5,7 @@ import (
 	problem1 "project-euler/problem-1"
 	problem2 "project-euler/problem-2"
 	problem3 "project-euler/problem-3"
+	problem4 "project-euler/problem-4"
 )
 
 
@@ -20,5 +21,8 @@ func main () {
 
   problem3_result := problem3.FindLargestPrimeFactor()
   fmt.Printf("Largest prime factor is %+v\n", problem3_result)
+  
+  highest_palindrome := problem4.LargestPalindromeProductOfThreeDigits()
+  fmt.Printf("Highest palindrome of three digits is: %+v", highest_palindrome)
 }
 
