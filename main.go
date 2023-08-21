@@ -7,6 +7,7 @@ import (
 	problem3 "project-euler/problem-3"
 	problem4 "project-euler/problem-4"
 	problem5 "project-euler/problem-5"
+	problem6 "project-euler/problem-6"
 )
 
 
@@ -29,5 +30,7 @@ func main () {
   smallest_positive_number_even_no_remainder := problem5.SmallestPositiveNumberEvenNoRemainder()
   fmt.Printf("smallest blah: %+v\n", smallest_positive_number_even_no_remainder)
 
+  sum_square_diff := problem6.SumSquareDiff()
+  fmt.Printf("sum square diff is: %+v\n", sum_square_diff)
 }
 
