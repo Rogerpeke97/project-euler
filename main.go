@@ -8,6 +8,7 @@ import (
 	problem4 "project-euler/problem-4"
 	problem5 "project-euler/problem-5"
 	problem6 "project-euler/problem-6"
+	problem7 "project-euler/problem-7"
 )
 
 
@@ -32,5 +33,8 @@ func main () {
 
   sum_square_diff := problem6.SumSquareDiff()
   fmt.Printf("sum square diff is: %+v\n", sum_square_diff)
+
+  prime10001st := problem7.Prime10001st()
+  fmt.Printf("prime10001st is: %+v\n", prime10001st)
 }
 
