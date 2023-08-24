@@ -9,6 +9,7 @@ import (
 	problem5 "project-euler/problem-5"
 	problem6 "project-euler/problem-6"
 	problem7 "project-euler/problem-7"
+	problem8 "project-euler/problem-8"
 )
 
 
@@ -36,5 +37,8 @@ func main () {
 
   prime10001st := problem7.Prime10001st()
   fmt.Printf("prime10001st is: %+v\n", prime10001st)
+
+  thirteen_adjacent_greatest_product := problem8.GreatestThirteenAdjacent()
+  fmt.Printf("thirteen_adjacent_greatest_product is: %+v\n", thirteen_adjacent_greatest_product) 
 }
 
