@@ -68,7 +68,7 @@ func GreatestThirteenAdjacent () (int) {
   var greatest_adjacent_product int
   var adjacent_val = 13
   
-	for index := range input {
+  for index := range input {
     if index + adjacent_val > len(input) - 1 {
       return greatest_adjacent_product
     }
@@ -87,6 +87,6 @@ func GreatestThirteenAdjacent () (int) {
     if accumulated_product > greatest_adjacent_product {
       greatest_adjacent_product = accumulated_product
     }
-	}
+  }
   return greatest_adjacent_product
 }
