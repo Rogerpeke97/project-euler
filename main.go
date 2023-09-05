@@ -10,6 +10,7 @@ import (
 	problem6 "project-euler/problem-6"
 	problem7 "project-euler/problem-7"
 	problem8 "project-euler/problem-8"
+	problem9 "project-euler/problem-9"
 )
 
 
@@ -40,5 +41,8 @@ func main () {
 
   thirteen_adjacent_greatest_product := problem8.GreatestThirteenAdjacent()
   fmt.Printf("thirteen_adjacent_greatest_product is: %+v\n", thirteen_adjacent_greatest_product) 
+
+  triplet := problem9.FindPythagoreanTriplet()
+  fmt.Printf("pythagorean triplet product of a 1000 is: %+v\n", triplet[0] * triplet[1] * triplet[2]) 
 }
 
